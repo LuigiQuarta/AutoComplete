@@ -1,4 +1,4 @@
-# AutoComplete
+# AutoCompleteType
 A more accurate typing for the HTML input autocomplete attribute
 
 ## The problem
@@ -14,15 +14,15 @@ You don't need to check for updates, the AutoComplete package do this for you (m
 
 Install the library using npm:
 
-    npm i -D autocomplete
+    npm i -D autocomplete-type
 
 or yarn:
 
-    yarn add -D autocomplete
+    yarn add -D autocomplete-type
 
 Import the AutoComplete type and use it when you need:
 
-    import { AutoComplete } from 'autocomplete'
+    import { AutoComplete } from 'autocomplete-type'
 
     // ...
 

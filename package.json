@@ -1,5 +1,5 @@
 {
-  "name": "autocomplete",
+  "name": "autocomplete-type",
   "version": "1.0.0",
   "description": "A more accurate typing for the HTML input autocomplete attribute",
   "main": "dist/index.js",
