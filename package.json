@@ -1,0 +1,39 @@
+{
+  "name": "autocomplete",
+  "version": "1.0.0",
+  "description": "A more accurate typing for the HTML input autocomplete attribute",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
+    "prettier": "prettier --write \"{src,tests,example/src}/**/*.{js,ts,jsx,tsx}\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuigiQuarta/AutoComplete.git"
+  },
+  "keywords": [
+    "autocomplete",
+    "type"
+  ],
+  "files": [
+    "/dist"
+  ],
+  "author": "Luigi Quarta",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/LuigiQuarta/AutoComplete/issues"
+  },
+  "homepage": "https://github.com/LuigiQuarta/AutoComplete#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.30.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  }
+}
